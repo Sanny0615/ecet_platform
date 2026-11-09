@@ -21,3 +21,7 @@ Build an AI-powered learning platform for ECET students.
 - React
 - LLM APIs
 - RAG
+
+## Current Status
+
+Project structure is ready.

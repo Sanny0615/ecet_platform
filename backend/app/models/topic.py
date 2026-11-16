@@ -1,6 +1,11 @@
+from typing import TYPE_CHECKING
+
 from app.db import Base
 from sqlalchemy import String, ForeignKey, Integer
 from sqlalchemy.orm import Mapped, mapped_column, relationship
+
+if TYPE_CHECKING:
+    from app.models.subject import Subject
 
 
 class Topic(Base):
